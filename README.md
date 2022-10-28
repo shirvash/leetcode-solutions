@@ -1,6 +1,6 @@
 # Leetcode solutions
 
- Personal project for collectiong solution of leedcode problems.
+Personal project for collecting solution of leetcode problems.
 
 #### [My profile](https://leetcode.com/Shirvash/)
 #### [Leetcode problems](https://leetcode.com/problemset/all/)
