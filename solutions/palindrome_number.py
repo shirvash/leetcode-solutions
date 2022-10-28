@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/palindrome-number/
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         return str(x) == str(x)[::-1]
@@ -13,12 +15,3 @@ class Solution:
         #     else:
         #         return False
         # return True
-
-solution = Solution()
-result = solution.isPalindrome(1234321)
-print(f'result: {result}')
-print('expected: True')
-
-result = solution.isPalindrome(1213421)
-print(f'result: {result}')
-print('expected: False')

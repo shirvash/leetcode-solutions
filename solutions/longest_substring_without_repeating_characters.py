@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         start, output, hash_map = 0, 0, {}
@@ -10,7 +12,3 @@ class Solution:
             hash_map[ch] = i
 
         return output
-
-
-obj = Solution()
-print(obj.lengthOfLongestSubstring("dvdfvdsf"))
